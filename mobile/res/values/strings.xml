@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IITC-ja Mobile</string>
+    <string name="toggle_map">マップを切り替える</string>
+    <string name="clear_log">ログを消去</string>
+    <string name="debug_run">実行</string>
+    <string name="activity_settings">IITC Mobile 設定</string>
+    <string name="activity_plugins">IITCプラグイン</string>
+    <string name="activity_share">共有…</string>
+    <string name="activity_share_to_clipboard">クリップボードにコピー</string>
+    <string name="activity_save_to_file">ファイルに保存</string>
+    <string name="action_settings">設定</string>
+    <string name="drawer_open">ナビゲーションメニューを表示</string>
+    <string name="drawer_close">ナビゲーションメニューを隠す</string>
+    <string name="version">バージョンを出力</string>
+    <string name="local">ローカル</string>
+    <string name="close">閉じる</string>
+    <string name="download_description">最新のIntelパッケージを読み込み中…</string>
+
+    <string name="pref_about_title">IITC-ja Mobileについて</string>
+    <!-- Use CDATA to prevent android from parsing html tags....we are doing this with Html.fromHtml() -->
+    <string name="pref_about_text">
+        <![CDATA[
+        <h1>Ingress Intel Total Conversion(ja) Mobile</h1>
+        <h3>バージョン情報</h3>
+        <b>Build Version: %1$s</b><br>
+        <b>IITC Version: %2$s</b><br>
+        <br>
+        <h3>謝辞</h3>
+          このソフトウェアはIITCを日本向けにフォークし、カスタマイズしたものです。<br>
+          IITCコミュニティ及び、IITC開発メンバーに感謝します。<br>
+          <br>
+          IITC-ja Mobile は <a href="https://github.com/breunigs"><b>breunigs</b></a>
+          氏によって開発されたIITC Mobileをベースにローカライズ及びデザイン等の変更を行ったものです。<br>
+          <br>
+          <h3>ライセンス/著作権</h3>
+          このソフトウェアはISCライセンスで公開しています。<br>
+          ソースコードはIITC-jaのホームページをご覧ください。<br>
+        <br>
+        <h3>IITC Licence:</h3>
+        Copyright © 2013-2017 Stefan Breunig, Jon Atkins, Philipp Schäfer, IITC-ja
+        Community(Shinko Sasaki, Masatoshi Niimi, sirius sk8er, mas yu) and others<br>
+        <br>
+        Permission to use, copy, modify, and/or distribute this software for<br>
+        any purpose with or without fee is hereby granted, provided that the<br>
+        above copyright notice and this permission notice appear in all<br>
+        copies.<br>
+        <br>
+        THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH<br>
+        REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF<br>
+        MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY<br>
+        SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES<br>
+        WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN<br>
+        ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT<br>
+        OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+        ]]>
+    </string>
+    <string name="notice_how_to">
+      <![CDATA[<b>IITC-ja Mobileの使い方:</b><br><br>
+      • ナビゲーション: 画面の左側からスワイプ(またはアイコンをタップ)し、ナビゲーションドロワーを表示します。
+      戻るにはアイコンを再度タップします。<br><br>
+      • レイヤー/強調表示: 画面の右側からスワイプ(またはメニューをタップ)し、レイヤードロワーを表示します。<br><br>
+      • 双方の端末がNFCを搭載している場合表示しているポータルを簡単に共有できます。 (端末背面を向かい合わせて接触させ"タップしてビーム"と表示されたらタップして共有します).<br><br>
+      • 設定からプラグインを追加できます。<br><br>
+      • 外部プラグインを追加する方法は<a href="http://iitc.me/faq/#mobile-plugins">FAQ(英語)</a>をご確認ください。]]>
+    </string>
+    <string name="notice_info">
+      <![CDATA[ヒント: 情報画面を開く他の方法:<br><br>
+      • ポータルをタップし長押しします<br>
+      • ステータスバーの左側をタップします]]>
+    </string>
+    <string name="notice_panes">
+      <![CDATA[ヒント:<br><br>
+      いくつかのプラグイン(e.g. portals list and bookmarks)の項目はナビゲーション内に追加されます。<br>
+      これらの項目は情報画面には表示されません。<br><br>
+      左からスワイプ(またはアイコンをタップ)し、確認してください。]]>
+    </string>
+    <string name="notice_extplugins">
+      <![CDATA[ヒント:<br><br>
+      IITC-ja Mobileも外部のプラグインを読み込むことができます。<br><br>
+      追加するには右上の(+)アイコンをタップします。<br>
+      プラグインファイル\'.user.js\'は以下のフォルダに追加されます:<br> <b>%1$s</b><br>]]>
+    </string>
+    <string name="notice_sharing">
+      <![CDATA[<em>\"ポータルを共有\"</em>で以下のことができます:<br>
+      • ポータルへのリンクを他の人に送れます<br>
+      • 選択されたポータルの場所を他のアプリで見れます<br>
+      • ウェブブラウザでポータルへのリンクを開けます<br>
+      <br>
+      ヒント: グーグルマップ(または他のナビアプリ)を選択することで、ポータルへの案内などができます。<br>
+      <br>
+      これらのヒントは\"パーマリンク\"でも使えます]]>
+    </string>
+
+    <string name="pref_ui_cat">UI</string>
+    <string name="pref_misc_cat">Misc</string>
+    <string name="pref_tweaks_cat">Tweaks</string>
+    <string name="pref_plugins">IITCプラグイン</string>
+    <string name="pref_plugins_sum">プラグインはIITCの機能を追加/編集します。多くのデスクトップ版IITCのプラグインはここから見つけられます。</string>
+    <string name="pref_plugins_title">有効なプラグイン</string>
+    <string name="pref_user_location">ユーザーの現在地表示</string>
+    <string name="pref_persistent_zoom">ズームレベルの保持</string>
+    <string name="pref_persistent_zoom_sum">現在地ボタンが押されたとき、ズームレベルを変更しません。</string>
+    <string name="pref_user_zoom">ズームコントロールの表示</string>
+    <string name="pref_user_zoom_sum">+/-ボタンを表示します。</string>
+    <string name="pref_fullscreen">フルスクリーンモードの設定</string>
+    <string name="pref_fullscreen_sum">フルスクリーンモードの時に表示する要素を設定します。
+        注: ナビゲーションドロワー経由で操作が可能です</string>
+    <string name="pref_force_desktop">デスクトップモードを強制</string>
+    <string name="pref_force_desktop_sum">UIをタブレットに最適化します。</string>
+    <string name="pref_force_https">HTTPSを強制</string>
+    <string name="pref_force_https_sum">これを停止するとパフォーマンスが向上するかもしれません。</string>
+    <string name="pref_external_storage">タイルキャッシュを外部ストレージに移動</string>
+    <string name="pref_external_storage_sum"><b>再起動が必要</b> キャッシュをSDカードに書き込みます。
+        外部ストレージがマウントされている必要があります。</string>
+    <string name="pref_press_twice_to_exit">戻るボタンを2回押して終了</string>
+    <string name="pref_press_twice_to_exit_sum">誤操作による終了を回避します。</string>
+    <string name="pref_advanced_options">高度な設定</string>
+    <string name="pref_advanced_options_sum">開発者オプションと高度な調整</string>
+    <string name="pref_enable_dev_mode">開発者モードを有効化</string>
+    <string name="pref_enable_dev_mode_sum">有効化すると、すべてのIITCソースが外部ストレージから読み込まれます。
+      すべてのソースを $IITC_folder/build/mobile/ から /sdcard/IITC_Mobile/dev/ にコピーしてください。</string>
+    <string name="pref_disable_splash">スプラッシュ画面を無効化</string>
+    <string name="pref_fake_user_agent">ユーザーエージェントの偽装</string>
+    <string name="pref_fake_user_agent_sum">IITCmをIntelのためのデスクトップブラウザーとして認識させない。
+        注: デスクトップモードで使用したい場合は\'デスクトップモードを強制\'で設定してください。</string>
+    <string name="pref_android_menu">IITCm メニューの設定</string>
+    <string name="pref_android_menu_sum">IITCm メニューに表示する要素を選択します</string>
+    <string name="pref_update_plugins_cat">ユーザープラグインの更新</string>
+    <string name="pref_update_plugins_interval">アップデートの頻度</string>
+    <string name="pref_update_plugins_interval_sum">IITCmが新しいバージョンを検索する頻度の設定。</string>
+    <string name="pref_force_plugin_update">今すぐアップデート</string>
+    <string name="pref_force_plugin_update_sum">すべての有効なプラグインをアップデートします。</string>
+    <string name="pref_secure_updates">セキュアアップデート</string>
+    <string name="pref_secure_updates_sum">有効にすると、HTTPSでのみ更新します。</string>
+
+    <string-array name="pref_hide_fullscreen">
+        <item>システム通知バー</item>
+        <item>IITCアクションバー</item>
+        <item>IITCステータスバー</item>
+        <item>システムナビゲーションバー</item>
+    </string-array>
+    <string-array name="pref_hide_fullscreen_vals">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="pref_hide_fullscreen_defaults">
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_android_menu_entries">
+        <item>@string/menu_search</item>
+        <item>@string/menu_locate</item>
+        <item>@string/menu_layer_chooser</item>
+        <item>@string/menu_toggle_fullscreen</item>
+        <item>@string/menu_reload</item>
+        <item>@string/menu_send_screenshot</item>
+        <item>@string/menu_clear_cookies</item>
+        <item>@string/menu_debug</item>
+    </string-array>
+    <string-array name="pref_android_menu_default">
+        <item>@string/menu_search</item>
+        <item>@string/menu_locate</item>
+        <item>@string/menu_layer_chooser</item>
+        <item>@string/menu_toggle_fullscreen</item>
+        <item>@string/menu_reload</item>
+        <item>@string/menu_send_screenshot</item>
+    </string-array>
+
+    <string-array name="pref_user_location_titles">
+        <item>ユーザーの位置を表示しません</item>
+        <item>ユーザーの位置をマップ上に表示します</item>
+        <item>ユーザーの位置と向きをマップ上に表示します</item>
+    </string-array>
+    <string-array name="pref_user_location_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_update_plugins_interval_titles">
+        <item>無効</item>
+        <item>1 日</item>
+        <item>2 日</item>
+        <item>1 週</item>
+        <item>2 週</item>
+    </string-array>
+
+    <string-array name="pref_update_plugins_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+        <item>14</item>
+    </string-array>
+
+    <string name="menu_reload">IITC再読込み</string>
+    <string name="menu_toggle_fullscreen">フルスクリーン</string>
+    <string name="menu_layer_chooser">レイヤー選択</string>
+    <string name="menu_locate">現在地を取得</string>
+    <string name="menu_clear_cookies">Cookieを消去</string>
+    <string name="menu_search">検索</string>
+    <string name="menu_debug">デバッグ</string>
+    <string name="menu_send_screenshot">スクリーンショットを送信</string>
+    <string name="menu_plugins_add">外部プラグインの追加</string>
+    <string name="menu_copy">コピー</string>
+    <string name="menu_delete">消去</string>
+    <string name="choose_account_to_login">アカウントを選択してログイン</string>
+    <string name="login_failed">ログイン失敗...</string>
+    <string name="search_hint">場所を検索</string>
+    <string name="intent_error">アドレスを開けませんでした</string>
+    <string name="msg_copied">クリップボードにコピーされました…</string>
+    <string name="notice_do_not_show_again">次回から表示しない</string>
+
+    <string name="sign_in_to">%1$s %2$s" にサインイン</string>
+    <string name="username">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="sign_in_action">サインイン</string>
+
+    <string name="tab_map">位置</string>
+    <string name="tab_share">共有</string>
+    <string name="tab_browser">Intel</string>
+
+    <string name="label_highlighter">強調表示</string>
+    <string name="label_base_layer">基本レイヤー</string>
+    <string name="label_overlay_layers">オーバーレイレイヤー</string>
+
+    <string name="install_dialog_top">外部プラグインをインストールしますか？</string>
+    <string name="install_dialog_msg">
+        <![CDATA[以下のプラグインのインストールを求められました:<br><br>%1$s<br><br>
+        <b>注意:</b> 外部からのJavascriptソースは有害なコード(スパイウェアなど)を含むかもしれません。<br><br>
+        続行しますか？]]>
+    </string>
+
+</resources>

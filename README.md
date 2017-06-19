@@ -1,48 +1,39 @@
-ingress intel total conversion (IITC)
-=====================================
+Ingress Intel Total Conversion Japanese (IITC-ja)
+=================================================
 
-Since the [breunigs](https://github.com/breunigs/ingress-intel-total-conversion) IITC branch was deleted,
-[Jon Atkins](https://github.com/jonatkins) created this one to continue some development.
+このソフトウェアは[IITC](https://github.com/iitc-project/ingress-intel-total-conversion)を日本向けにフォークし、カスタマイズしたものです。
+IITCコミュニティ及び、IITC開発メンバーに感謝します。
 
-## Users
+## ユーザー
 
-Just want to download/install IITC? Go to http://iitc.me/
+ダウンロード / インストール をしたい方は、こちらへ → https://ingress.love/iitc-ja/
 
-For keeping up with the latest news, release announcements, etc, Follow IITC on G+
-https://plus.google.com/105383756361375410867/posts
+G+コミュニティ等は準備中です。
 
-If you have questions, need help or advice with IITC, the Google+ community is a good place to start.
-https://plus.google.com/communities/105647403088015055797
+## 開発者
 
-Want to report a bug? Post it to the issues page
-https://github.com/iitc-project/ingress-intel-total-conversion/issues
+このGitHubページを訪れていただきありがとうございます。
+あなたの協力に感謝します。
 
-## Developers
+### クイックスタート
 
-This Github page is for those interested in developing IITC further.
+ビルドにはPythonが必要です。(最新の2.xバージョンまたは、3.0以上)
 
-### Quickstart
+このプロジェクトをフォークするにはあなたのマシンへクローンしてください。
 
-To build the browser scripts from source you will need Python (either a late version 2.x, or 3.0+). It should
-build correctly on Linux and Windows (and, probably, Macs, FreeBSD, etc)
+`build.py local` を実行すると、スクリプトを構築します。
+完了後 `build/local` へ出力されます。
 
-Fork this project, clone to your local machine.
+`localbuildsettings.py` を編集することでビルドをカスタマイズできます。 - 詳細は `buildsettings.py` をご覧ください。
 
-Run the `build.py local` script to build the code.
+#### モバイル
 
-If all goes well, output of the build will end up in `build/local` subfolder.
-
-You can create a custom build settings file, `localbuildsettings.py` - look in the supplied
-`buildsettings.py` for details.
-
-#### Mobile
-
-To build the mobile app, along with python, you will need
+モバイル版をビルドする場合Pythonに加え、下記のものが必要となります。
 
 - The Java JDK (development kit - the runtime JRE is not enough)
 - The Android SDK
 
-Run `build.py mobile` to build IITC Mobile in debug mode.
+`build.py mobile` を実行すると、IITC-ja Mobileをdebug modeでビルドします。
 
-Note that part of the build.py process includes copying the IITC script files into the `mobile/res` subfolder.
-If this isn't done (e.g. you build IITC Mobile directly from Eclipse) you will end up with a broken build.
+ノート: build.py にはIITCスクリプトを `mobile/res` 内にコピーする機能があります。
+その為、(Eclipseなどから)直接ビルドするするとこの作業が行われず、動作しないアプリケーションがビルドされます。

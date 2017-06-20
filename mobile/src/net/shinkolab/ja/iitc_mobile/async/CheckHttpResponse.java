@@ -1,11 +1,11 @@
-package net.shinkolab.ja.iitc_mobile.async;
+package net.shinkolab.iitc_ja_mobile.async;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
 
-import net.shinkolab.ja.iitc_mobile.IITC_Mobile;
-import net.shinkolab.ja.iitc_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.IITC_Mobile;
+import net.shinkolab.iitc_ja_mobile.Log;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

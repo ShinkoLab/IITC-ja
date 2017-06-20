@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.R;
+import net.shinkolab.iitc_ja_mobile.R;
 
 public class SendToClipboard extends Activity {
     @Override

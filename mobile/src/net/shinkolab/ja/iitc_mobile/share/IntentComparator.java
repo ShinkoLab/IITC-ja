@@ -1,11 +1,11 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
 
-import net.shinkolab.ja.iitc_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.Log;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

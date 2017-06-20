@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import net.shinkolab.ja.iitc_mobile.Log;
-import net.shinkolab.ja.iitc_mobile.R;
+import net.shinkolab.iitc_ja_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.R;
 
 import java.util.Collections;
 import java.util.List;

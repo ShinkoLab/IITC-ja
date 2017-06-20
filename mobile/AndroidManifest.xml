@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.shinkolab.ja.iitc_mobile"
+    package="net.shinkolab.iitc_ja_mobile"
     android:installLocation="auto"
     android:versionCode="10"
     android:versionName="0.1.2">
@@ -20,13 +20,13 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
-        android:name="net.shinkolab.ja.iitc_mobile.IITC_Application"
+        android:name="net.shinkolab.iitc_ja_mobile.IITC_Application"
         android:allowBackup="true"
         android:icon="@drawable/ic_iitcm"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="net.shinkolab.ja.iitc_mobile.IITC_Mobile"
+            android:name="net.shinkolab.iitc_ja_mobile.IITC_Mobile"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize|uiMode"
             android:label="@string/app_name"
             android:launchMode="singleTask">
@@ -103,12 +103,12 @@
         </activity>
 
         <activity
-            android:name="net.shinkolab.ja.iitc_mobile.prefs.PreferenceActivity"
+            android:name="net.shinkolab.iitc_ja_mobile.prefs.PreferenceActivity"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
             android:label="@string/activity_settings"/>
 
         <activity
-            android:name="net.shinkolab.ja.iitc_mobile.prefs.PluginPreferenceActivity"
+            android:name="net.shinkolab.iitc_ja_mobile.prefs.PluginPreferenceActivity"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
             android:label="@string/activity_plugins">
             <!-- Handles external user plugins -->
@@ -149,17 +149,17 @@
         </activity>
 
         <activity
-            android:name="net.shinkolab.ja.iitc_mobile.share.ShareActivity"
+            android:name="net.shinkolab.iitc_ja_mobile.share.ShareActivity"
             android:label="@string/activity_share"
             android:noHistory="true"
-            android:parentActivityName="net.shinkolab.ja.iitc_mobile.IITC_Mobile">
+            android:parentActivityName="net.shinkolab.iitc_ja_mobile.IITC_Mobile">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="net.shinkolab.ja.iitc_mobile.IITC_Mobile"/>
+                android:value="net.shinkolab.iitc_ja_mobile.IITC_Mobile"/>
         </activity>
 
         <activity
-            android:name="net.shinkolab.ja.iitc_mobile.share.SendToClipboard"
+            android:name="net.shinkolab.iitc_ja_mobile.share.SendToClipboard"
             android:enabled="true"
             android:excludeFromRecents="true"
             android:exported="false"
@@ -174,7 +174,7 @@
         </activity>
 
         <activity
-            android:name="net.shinkolab.ja.iitc_mobile.share.SaveToFile"
+            android:name="net.shinkolab.iitc_ja_mobile.share.SaveToFile"
             android:enabled="true"
             android:excludeFromRecents="true"
             android:exported="false"
@@ -208,7 +208,7 @@
         <!-- Points to searchable activity so the whole app can invoke search. -->
         <meta-data
             android:name="android.app.default_searchable"
-            android:value="net.shinkolab.ja.iitc_mobile.IITC_Mobile"/>
+            android:value="net.shinkolab.iitc_ja_mobile.IITC_Mobile"/>
     </application>
 
 </manifest>

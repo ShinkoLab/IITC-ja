@@ -1,12 +1,12 @@
-package net.shinkolab.ja.iitc_mobile.fragments;
+package net.shinkolab.iitc_ja_mobile.fragments;
 
 import android.app.ActionBar;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
-import net.shinkolab.ja.iitc_mobile.R;
-import net.shinkolab.ja.iitc_mobile.prefs.PluginPreference;
-import net.shinkolab.ja.iitc_mobile.prefs.PluginPreferenceActivity;
+import net.shinkolab.iitc_ja_mobile.R;
+import net.shinkolab.iitc_ja_mobile.prefs.PluginPreference;
+import net.shinkolab.iitc_ja_mobile.prefs.PluginPreferenceActivity;
 
 import java.util.ArrayList;
 

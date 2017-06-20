@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -13,8 +13,8 @@ import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
 
-import net.shinkolab.ja.iitc_mobile.Log;
-import net.shinkolab.ja.iitc_mobile.R;
+import net.shinkolab.iitc_ja_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.R;
 
 import java.io.File;
 import java.util.ArrayList;

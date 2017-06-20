@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -8,9 +8,9 @@ import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.view.Window;
 
-import net.shinkolab.ja.iitc_mobile.IITC_FileManager;
-import net.shinkolab.ja.iitc_mobile.Log;
-import net.shinkolab.ja.iitc_mobile.R;
+import net.shinkolab.iitc_ja_mobile.IITC_FileManager;
+import net.shinkolab.iitc_ja_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.R;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

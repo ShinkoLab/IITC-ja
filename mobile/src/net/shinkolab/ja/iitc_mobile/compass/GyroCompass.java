@@ -17,7 +17,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  ************************************************************************************/
 
-package net.shinkolab.ja.iitc_mobile.compass;
+package net.shinkolab.iitc_ja_mobile.compass;
 
 import android.content.Context;
 import android.hardware.Sensor;

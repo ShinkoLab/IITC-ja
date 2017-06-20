@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -19,7 +19,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.IITC_Mobile.ResponseHandler;
+import net.shinkolab.iitc_ja_mobile.IITC_Mobile.ResponseHandler;
 
 /**
  * this class manages automatic login using the Google account stored on the device

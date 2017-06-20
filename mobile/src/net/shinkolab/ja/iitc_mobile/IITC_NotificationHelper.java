@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.app.Activity;
 import android.app.AlertDialog;

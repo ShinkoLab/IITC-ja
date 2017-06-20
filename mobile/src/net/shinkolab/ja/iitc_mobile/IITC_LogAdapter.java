@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.database.DataSetObserver;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import net.shinkolab.ja.iitc_mobile.Log.Message;
+import net.shinkolab.iitc_ja_mobile.Log.Message;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.webkit.ConsoleMessage;
 import android.webkit.GeolocationPermissions;

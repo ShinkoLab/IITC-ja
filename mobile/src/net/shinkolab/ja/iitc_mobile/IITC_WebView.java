@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -15,7 +15,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.async.CheckHttpResponse;
+import net.shinkolab.iitc_ja_mobile.async.CheckHttpResponse;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,8 +1,8 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.webkit.WebResourceResponse;
 
-import net.shinkolab.ja.iitc_mobile.async.DownloadTile;
+import net.shinkolab.iitc_ja_mobile.async.DownloadTile;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -33,7 +33,7 @@ public class IITC_TileManager {
 
         /*
          * now get the file path...example path:
-         * /storage/emulated/0/Android/data/net.shinkolab.ja.iitc_mobile/files/mqcdn.com/tiles/1.0.0/map/18/137397/89580.jpg
+         * /storage/emulated/0/Android/data/net.shinkolab.iitc_ja_mobile/files/mqcdn.com/tiles/1.0.0/map/18/137397/89580.jpg
          */
         String filePath = uri.getPath();
         String path = mIitc.getApplication().getFilesDir().toString() + "/" + hostId + filePath;

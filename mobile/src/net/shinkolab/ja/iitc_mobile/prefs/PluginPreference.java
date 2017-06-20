@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.prefs;
+package net.shinkolab.iitc_ja_mobile.prefs;
 
 import android.content.Context;
 import android.preference.CheckBoxPreference;

@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.prefs;
+package net.shinkolab.iitc_ja_mobile.prefs;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.util.AttributeSet;
 
-import net.shinkolab.ja.iitc_mobile.R;
+import net.shinkolab.iitc_ja_mobile.R;
 
 public class ForceUpdatePreference extends Preference {
 

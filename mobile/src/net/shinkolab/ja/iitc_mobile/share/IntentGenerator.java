@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
 
-import net.shinkolab.ja.iitc_mobile.Log;
-import net.shinkolab.ja.iitc_mobile.R;
+import net.shinkolab.iitc_ja_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.R;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

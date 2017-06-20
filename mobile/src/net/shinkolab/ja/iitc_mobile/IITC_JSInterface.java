@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -9,8 +9,8 @@ import android.os.Environment;
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.IITC_NavigationHelper.Pane;
-import net.shinkolab.ja.iitc_mobile.share.ShareActivity;
+import net.shinkolab.iitc_ja_mobile.IITC_NavigationHelper.Pane;
+import net.shinkolab.iitc_ja_mobile.share.ShareActivity;
 
 import java.io.File;
 import java.io.FileOutputStream;

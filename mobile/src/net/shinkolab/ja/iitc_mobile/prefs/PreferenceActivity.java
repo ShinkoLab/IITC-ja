@@ -1,10 +1,10 @@
-package net.shinkolab.ja.iitc_mobile.prefs;
+package net.shinkolab.iitc_ja_mobile.prefs;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import net.shinkolab.ja.iitc_mobile.fragments.MainSettings;
+import net.shinkolab.iitc_ja_mobile.fragments.MainSettings;
 
 public class PreferenceActivity extends Activity {
 

@@ -69,7 +69,7 @@
     <import file="custom_rules.xml" optional="true" />
 
     <!-- allow the package name to be overridden when building -->
-    <property name="override.package.name" value="net.shinkolab.ja.iitc_mobile.test"/>
+    <property name="override.package.name" value="net.shinkolab.iitc_ja_mobile.test"/>
 
     <!-- Puts the project's resources into the output package file
          This actually can create multiple resource package in case
@@ -164,8 +164,8 @@
            replace='IITCm Test'/>
         <replaceregexp
            file="res/xml/preferences.xml"
-           match='targetPackage="net.shinkolab.ja.iitc_mobile"'
-           replace='targetPackage="net.shinkolab.ja.iitc_mobile.test"'/>
+           match='targetPackage="net.shinkolab.iitc_ja_mobile"'
+           replace='targetPackage="net.shinkolab.iitc_ja_mobile.test"'/>
     </target>
 
     <target name="-test-revert">

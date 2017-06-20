@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -42,9 +42,9 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.IITC_NavigationHelper.Pane;
-import net.shinkolab.ja.iitc_mobile.prefs.PreferenceActivity;
-import net.shinkolab.ja.iitc_mobile.share.ShareActivity;
+import net.shinkolab.iitc_ja_mobile.IITC_NavigationHelper.Pane;
+import net.shinkolab.iitc_ja_mobile.prefs.PreferenceActivity;
+import net.shinkolab.iitc_ja_mobile.share.ShareActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;

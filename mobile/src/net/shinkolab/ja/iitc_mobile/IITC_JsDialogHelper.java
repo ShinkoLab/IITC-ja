@@ -15,7 +15,7 @@
  */
 
 // package android.webkit;
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;

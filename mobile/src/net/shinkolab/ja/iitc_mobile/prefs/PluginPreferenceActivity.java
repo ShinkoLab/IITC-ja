@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.prefs;
+package net.shinkolab.iitc_ja_mobile.prefs;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -18,11 +18,11 @@ import android.widget.ListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.IITC_FileManager;
-import net.shinkolab.ja.iitc_mobile.IITC_NotificationHelper;
-import net.shinkolab.ja.iitc_mobile.Log;
-import net.shinkolab.ja.iitc_mobile.R;
-import net.shinkolab.ja.iitc_mobile.fragments.PluginsFragment;
+import net.shinkolab.iitc_ja_mobile.IITC_FileManager;
+import net.shinkolab.iitc_ja_mobile.IITC_NotificationHelper;
+import net.shinkolab.iitc_ja_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.R;
+import net.shinkolab.iitc_ja_mobile.fragments.PluginsFragment;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -319,7 +319,7 @@ public class PluginPreferenceActivity extends PreferenceActivity {
         final Header newHeader = new Header();
         newHeader.title = title;
         newHeader.fragmentArguments = bundle;
-        newHeader.fragment = "net.shinkolab.ja.iitc_mobile.fragments.PluginsFragment";
+        newHeader.fragment = "net.shinkolab.iitc_ja_mobile.fragments.PluginsFragment";
         mHeaders.add(newHeader);
     }
 

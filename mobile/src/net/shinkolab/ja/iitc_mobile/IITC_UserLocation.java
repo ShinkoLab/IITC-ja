@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.content.Context;
 import android.location.Location;
@@ -7,8 +7,8 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.Surface;
 
-import net.shinkolab.ja.iitc_mobile.compass.Compass;
-import net.shinkolab.ja.iitc_mobile.compass.CompassListener;
+import net.shinkolab.iitc_ja_mobile.compass.Compass;
+import net.shinkolab.iitc_ja_mobile.compass.CompassListener;
 
 public class IITC_UserLocation implements CompassListener, LocationListener {
     private static final int TWO_MINUTES = 1000 * 60 * 2;

@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.share;
+package net.shinkolab.iitc_ja_mobile.share;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

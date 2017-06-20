@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile;
+package net.shinkolab.iitc_ja_mobile;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -18,9 +18,9 @@ import android.util.Base64OutputStream;
 import android.webkit.WebResourceResponse;
 import android.widget.Toast;
 
-import net.shinkolab.ja.iitc_mobile.IITC_Mobile.ResponseHandler;
-import net.shinkolab.ja.iitc_mobile.async.UpdateScript;
-import net.shinkolab.ja.iitc_mobile.prefs.PluginPreferenceActivity;
+import net.shinkolab.iitc_ja_mobile.IITC_Mobile.ResponseHandler;
+import net.shinkolab.iitc_ja_mobile.async.UpdateScript;
+import net.shinkolab.iitc_ja_mobile.prefs.PluginPreferenceActivity;
 
 import org.json.JSONObject;
 

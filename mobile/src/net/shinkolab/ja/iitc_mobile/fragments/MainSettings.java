@@ -1,4 +1,4 @@
-package net.shinkolab.ja.iitc_mobile.fragments;
+package net.shinkolab.iitc_ja_mobile.fragments;
 
 import android.app.Dialog;
 import android.content.pm.PackageInfo;
@@ -16,9 +16,9 @@ import android.view.ViewParent;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import net.shinkolab.ja.iitc_mobile.Log;
-import net.shinkolab.ja.iitc_mobile.R;
-import net.shinkolab.ja.iitc_mobile.prefs.AboutDialogPreference;
+import net.shinkolab.iitc_ja_mobile.Log;
+import net.shinkolab.iitc_ja_mobile.R;
+import net.shinkolab.iitc_ja_mobile.prefs.AboutDialogPreference;
 
 public class MainSettings extends PreferenceFragment {
     @Override

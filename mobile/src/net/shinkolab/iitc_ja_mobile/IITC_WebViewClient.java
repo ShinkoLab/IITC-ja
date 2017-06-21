@@ -1,6 +1,7 @@
 package net.shinkolab.iitc_ja_mobile;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -24,6 +25,46 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+
+/**
+* SSLアラートダイアログクラス
+* 証明書が正しくないときにユーザーに進んでいいか聞く
+* 参考: http://qiita.com/furu8ma/items/1a22b34bc30649d1bec7
+*/
+public class SslAlertDialog {
+
+    private SslErrorHandler handler = null;
+    private AlertDialog dialog = null;
+
+    public SslAlertDialog(SslErrorHandler errorHandler, Activity activity) {
+
+        if (errorHandler == null || activity == null) return;
+
+        handler = errorHandler;
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+        builder.setMessage("SSL証明書が正しくありません。ページを開きますか？");
+        builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                handler.proceed();
+            }
+        });
+        builder.setNegativeButton("no", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                handler.cancel();
+            }
+        });
+
+        dialog = builder.create();
+    }
+
+    public void show() {
+        dialog.show();
+    }
+
+}
 
 public class IITC_WebViewClient extends WebViewClient {
 
@@ -173,9 +214,12 @@ public class IITC_WebViewClient extends WebViewClient {
     }
 
     // enable https
+    // 脆弱性: SSL Error Handlerに対応
+    // 詳しくは28行目参照
     @Override
     public void onReceivedSslError(final WebView view, final SslErrorHandler handler, final SslError error) {
-        handler.proceed();
+        SslAlertDialog dialog = new SslAlertDialog(handler, HogeActivity.this);
+        dialog.show();
     }
 
     public void reset() {
@@ -237,7 +281,7 @@ public class IITC_WebViewClient extends WebViewClient {
     @Override
     public boolean shouldOverrideUrlLoading(final WebView view, final String url) {
         Uri uri = Uri.parse(url);
-        
+
         if (url.contains("conflogin") || url.contains("ServiceLogin") || url.contains("appengine.google.com")) {
             Log.d("Google login");
             return false;
